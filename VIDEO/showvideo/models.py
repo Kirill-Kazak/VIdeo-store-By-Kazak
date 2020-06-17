@@ -1,6 +1,9 @@
 from django.db import models
 from django.utils.safestring import mark_safe
 
+
+
+
 class Video(models.Model):
     class Meta:
         verbose_name = "Видео"
